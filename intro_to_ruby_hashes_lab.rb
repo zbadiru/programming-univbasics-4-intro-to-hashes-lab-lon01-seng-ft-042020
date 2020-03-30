@@ -25,7 +25,7 @@ end
 
 def update_counting_hash(hash, key)
   counting_hash = {
-    count => 5
+    :count => 5
   }
   update_counting_hash += counting_hash
   
